@@ -36,4 +36,5 @@ footer {
     color: rgb(240, 248, 255);
     background-color: rgba(0, 100, 0, 0.89);
     font-size: 200%;
+    position: relative;
 }
