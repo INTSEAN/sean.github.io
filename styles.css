@@ -4,6 +4,9 @@ body {
     background-repeat:no-repeat;
     background-size:auto;
 }
+.navbar-brand {
+    color: aliceblue;
+}
 .searchengine {
     margin-top: 10%;
 }
