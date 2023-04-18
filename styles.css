@@ -13,8 +13,8 @@ section p {
     font-size: 50px;
 }
 .searchbox {
-    border-style: dotted;
-    width: 50px;
+    border-style:hidden;
+    border-width: thick;
 }
 .button {
     text-align: center;
