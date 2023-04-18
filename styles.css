@@ -1,5 +1,5 @@
 body {
-    background-image: url(Naivashasunset.jpg);
+    background-image: url(search.png);
     background-position: center;
     background-repeat:no-repeat;
     background-size:auto;
@@ -16,7 +16,6 @@ section p {
     font-size: 50px;
 }
 .searchbox {
-    font-size: 30px;
     border-width: 600%;
 }
 .button {
