@@ -14,7 +14,7 @@ section p {
 }
 .searchbox {
     border-style:hidden;
-    border-width: thick;
+    border-width: 200%;
 }
 .button {
     text-align: center;
