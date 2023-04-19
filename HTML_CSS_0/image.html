@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Search</title>
 </head>
+
 <body>
     <div class="navbar">
         <nav class="navbar fixed-top">
@@ -65,9 +67,12 @@
     <div class="searchengine">
         <section>
             <p><b>Donovan Search Engine WebPage</b></p>
-            <form action="https://www.google.com/search" class="d-flex mt-3" role="search">
-                <input id="content1" class="form-control me-2 searchbox search" type="search" placeholder="Search DSE or paste URL" aria-label="Search" name="q" autocomplete="off" autofocus>
-                <button class="btn btn-success button search" type="submit" value="Images">Search</button>
+            <form action="https://www.google.com/search?q=%s&tbm=isch" role="search">
+                <input id="content1" class=" searchbox search" type="search"
+                    placeholder="Search images or paste image URL" title="Search" aria-label="Search" name="q" autocomplete="off"
+                    autofocus/><br />
+                    <br />
+                <button class="button search" type="submit" name="tbm" value="isch" placeholder="Google Image Search">Google Image Search</button>
             </form>
         </section>
     </div>
