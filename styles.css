@@ -3,6 +3,7 @@ body {
     background-position: center;
     background-repeat:no-repeat;
     background-size:auto;
+    font-family: montserrat;
 }
 .white {
     color: aliceblue;
@@ -12,7 +13,6 @@ body {
 }
 section p {
     color: rgb(255, 255, 255);
-    font-family: montserrat;
     font-size: 50px;
 }
 .searchbox {
